@@ -1,0 +1,62 @@
+page{
+  background-color: #eeeeee;
+}
+.fb_main{
+  color: #666;
+    padding: 20rpx;
+}
+.feedback_zhonglei{
+  margin: 10rpx 0 20rpx 0;
+}
+.feedback_flag{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.feedback_flag_item{
+  width: 30%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10rpx;
+  margin:20rpx 10rpx;
+}
+.fb_conter{
+  background-color:#fff; 
+  margin-top: 20rpx;
+}
+.fb_conter textarea{
+  padding: 10rpx;
+}
+.fb_tool{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20rpx;
+}
+.fb_tool button{
+  width: 90rpx;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60rpx;
+  padding: 0;
+  margin: 0;
+  margin-left: 20rpx;
+  color: #ccc;
+}
+.form_btn_wrap{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.form_btn_wrap button{
+  margin: 0;
+  width: 30%;
+  padding: 0;
+}
+.up_img_item{
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}

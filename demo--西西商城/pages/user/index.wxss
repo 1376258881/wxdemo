@@ -1,0 +1,108 @@
+/* pages/user/index.wxss */
+page{
+  background-color: #edece8;
+}
+.user_info_warp{
+  height: 45vh;
+  background-color: var(--themeColor);
+  overflow: hidden;
+  position: relative;
+}
+.user_bg{
+  filter: blur(10rpx);
+  height: 50vh;
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  text-align: center;
+}
+.user_info .user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user_name{
+  font-size: 40rpx;
+  margin-top: 40rpx;
+}
+.user_btn{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  transform: translateX(-50%);  
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+.user_content{
+  position: relative;
+}
+.user_main{
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: -40rpx;
+  transform: translateX(-50%);
+  color: #666;
+}
+.history_warp{
+  display: flex;
+  background-color: #fff;
+}
+.history_warp navigator{
+  padding: 10rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.his_num{
+  color: var(--themeColor);
+}
+.orders_warp{
+    background-color: #fff;
+    margin-top: 30rpx;
+}
+.orders_title{
+  padding:20rpx;
+  border-bottom: 1rpx solid #ccc;
+  
+}
+.order_content{
+  display: flex;
+}
+.order_content .iconfont{
+ color: var(--themeColor);
+ font-size: 40rpx;
+}
+.orders_warp navigator{
+  flex: 1;
+  text-align: center;
+  padding:15rpx 0;
+  
+}
+.address_warp{
+  margin: 30rpx 0;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.app_info_warp{
+    background-color: #fff;
+}
+.app_info_warp .app_info_item{
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.app_info_contact{
+  display: flex;
+  justify-content: space-between;
+}
+.recommend_warp{
+   margin: 30rpx 0 100rpx 0;
+  background-color: #fff;
+  padding: 20rpx; 
+}

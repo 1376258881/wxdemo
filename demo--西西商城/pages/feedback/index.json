@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "意见中心",
+  "usingComponents": {
+    "Tabs": "../../components/tabs/tabs",
+    "Upimg": "../../components/Upimg/Upimg"
+  }
+}
